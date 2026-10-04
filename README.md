@@ -1,5 +1,4 @@
-# Supply-Chain-Disruptions-Using-Machine-Learning
-# Predicting Supply Chain Disruptions Using Machine Learning
+# Predicting Supply Chain Disruptions Using Machine Learning: A Case Study of the Dynamic Supply Chain Logistics Dataset
 
 ## Overview
 This project explores how machine learning can predict supply chain disruptions using logistics operational data. It compares Random Forest and Gradient Boosting to support proactive logistics decisions.
@@ -46,3 +45,23 @@ Both ROC-AUC scores are close to 0.50, indicating limited ability to distinguish
 
 ## Author
 Nwankwo Chibuzo Joseph
+
+## Setup and usage
+
+1. Install Python and the dependencies:
+
+   ```sh
+   python -m pip install -r requirements.txt
+   ```
+
+2. Download the Dynamic Supply Chain Logistics Dataset from Kaggle and place the CSV in this project folder as `dynamic_supply_chain_logistics_dataset.csv`.
+
+3. Run the analysis:
+
+   ```sh
+   python supply_chain_analysis_final.py
+   ```
+
+Outputs are written to `results/`, including evaluation charts, a research report, trained models, and a feature scaler.
+
+The dataset is not included in this repository. Model results depend on the supplied dataset and have not been validated as part of repository preparation.
